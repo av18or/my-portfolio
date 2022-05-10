@@ -9,7 +9,7 @@ export default function About() {
   return (
 
     <div style={wrapperStyle}>
-    <h2>About</h2>
+    <h2>ABOUT</h2>
     <Accordion>
   <Accordion.Item eventKey="0">
     <Accordion.Header>Values</Accordion.Header>

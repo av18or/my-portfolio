@@ -14,7 +14,7 @@ export default function NavigationBar() {
   return (
     <Navbar bg='dark' variant='dark'>
       <Container>
-        <Navbar.Brand href='#home'>ERIC HOOVER</Navbar.Brand>
+        <Navbar.Brand href='#home'>CLAYTON GORHAM</Navbar.Brand>
         <Nav className='me-auto'>
           <Nav.Link href='#home'>About</Nav.Link>
           <Nav.Link href='#features'>Projects</Nav.Link>

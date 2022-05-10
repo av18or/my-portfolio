@@ -10,6 +10,9 @@ import Home from "./components/Home";
 export default function App() {
   // vanilla js section
 
+
+
+  
   // jsx section
   return (
     <div>
