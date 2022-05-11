@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
+import { IoNavigateOutline } from "react-icons/io5";
 
 // import { useSelector } from "react-redux"; // gets data from the store
 // import { useDispatch } from "react-redux"; // updates the store data
@@ -26,7 +27,8 @@ export default function Projects() {
     <h2>PROJECTS</h2>
     <CardGroup>
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Img  />
+    <IoNavigateOutline />
     <Card.Body>
       <Card.Title>Project title</Card.Title>
       <Card.Text>
@@ -39,7 +41,9 @@ export default function Projects() {
     </Card.Footer>
   </Card>
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Img  />
+    <IoNavigateOutline />
+    
     <Card.Body>
       <Card.Title>Tic Tac Toe Game</Card.Title>
       <Card.Text>
@@ -52,7 +56,8 @@ export default function Projects() {
     </Card.Footer>
   </Card>
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Img  />
+    <IoNavigateOutline />
     <Card.Body>
       <Card.Title>Project title</Card.Title>
       <Card.Text>
