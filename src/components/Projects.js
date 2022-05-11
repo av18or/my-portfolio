@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import CardGroup from "react-bootstrap/CardGroup";
 import { IoNavigateOutline } from "react-icons/io5";
+
 
 // import { useSelector } from "react-redux"; // gets data from the store
 // import { useDispatch } from "react-redux"; // updates the store data
@@ -12,9 +12,29 @@ export default function Projects() {
   const wrapperStyle = {
     display: "flex",
     flexDirection: "column",
-    alignItems: "center",
-    marginTop: "100px",
+    textAlign: "center",
+    backgroundColor: "#022b3a",
+    paddingTop: "50vw",
+    paddingLeft: "20vw",
+    paddingRight: "20vw",
+    
+
   };
+
+  const textStyle = {
+    color: "white",
+  };
+
+  const newcards ={
+    display: "flex",
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "space-between",
+    alignItems: "stretch",
+    
+   
+
+  }
 
   // const dispatch = useDispatch(); // send info (a.k.a. "state") to the store
   // const color = useSelector((state) => state.colorStore.color); // get initial value from store
@@ -24,53 +44,49 @@ export default function Projects() {
 
   return (
     <div style={wrapperStyle}>
-    <h2>PROJECTS</h2>
-    <CardGroup>
-  <Card>
-    <Card.Img  />
-    <IoNavigateOutline />
-    <Card.Body>
-      <Card.Title>Project title</Card.Title>
-      <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
-  <Card>
-    <Card.Img  />
-    <IoNavigateOutline />
+    <h2 style={textStyle}>PROJECTS</h2>
     
+
+<div style={newcards}>
+<Card border="light" style={{ width: '15rem' }}>
+<IoNavigateOutline />
     <Card.Body>
-      <Card.Title>Tic Tac Toe Game</Card.Title>
+      <Card.Title>Bug Tracker</Card.Title>
       <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
+        A bug/ticket tracker created as a MERN stack application.
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small className="text-muted">HTML | CSS | JAVASCRIPT | MONGOdb </small>
     </Card.Footer>
   </Card>
-  <Card>
-    <Card.Img  />
+
+  <Card border="light" style={{ width: '15rem' }}>
     <IoNavigateOutline />
     <Card.Body>
-      <Card.Title>Project title</Card.Title>
+      <Card.Title>Tic Tac Toe</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This card has even longer content than the first to
-        show that equal height action.
+        This is a game I created as a project during bootcamp.
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small className="text-muted">HTML | CSS | JAVASCRIPT</small>
     </Card.Footer>
   </Card>
-</CardGroup>
+
+  <Card border="light" style={{ width: '15rem' }}>
+  <IoNavigateOutline />
+    <Card.Body>
+      <Card.Title>Project #3</Card.Title>
+      <Card.Text>
+        This is project #3. It is not complete. 
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+      <small className="text-muted">Building ...</small>
+    </Card.Footer>
+  </Card>
+ </div>
 </div>
   )
 }

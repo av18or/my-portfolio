@@ -2,12 +2,27 @@ import React from 'react'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 
-const wrapperStyle = { textAlign: "center", marginTop: "100px" };
-
 export default function ContactMe() {
+
+  const wrapperStyle = {
+    
+    justifyContent: "space-between",
+    textAlign: "center",
+    paddingTop: "50vw",
+    paddingLeft: "30vw",
+    paddingRight: "30vw",
+    paddingBottom: "10vw",
+    backgroundColor: "#022b3a",
+    
+  };
+
+  const textStyle = {
+    color: "white",
+  };
+
   return (
     <div style={wrapperStyle}>
-    <h2>CONTACT ME</h2>
+    <h2 style={textStyle}>CONTACT ME</h2>
     <Form>
   <Form.Group className="mb-3" controlId="formBasicEmail">
     

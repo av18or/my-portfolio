@@ -10,18 +10,33 @@ import Container from "react-bootstrap/Container";
 export default function NavigationBar() {
   //   const dispatch = useDispatch(); // send info (a.k.a. "state") to the store
   //   const color = useSelector((state) => state.colorStore.color); // get initial value from store
+  const wrapperStyle = {
+    
+    backgroundColor: "#022b3a",
+
+
+  };
+
+  const navbartext = {
+    paddingLeft: "19.5vw",
+  }
+
 
   return (
+    <div style={wrapperStyle}>
+
     <Navbar bg='dark' variant='dark'>
+    <div style={navbartext} >
       <Container>
-        <Navbar.Brand href='#home'>CLAYTON GORHAM</Navbar.Brand>
+        <Navbar.Brand href='#home'>CLAYTON GORHAM</Navbar.Brand> 
         <Nav className='me-auto'>
-          <Nav.Link href='#home'>About</Nav.Link>
+          {/* <Nav.Link href='#home'>About</Nav.Link>
           <Nav.Link href='#features'>Projects</Nav.Link>
-          <Nav.Link href='#pricing'>Contact</Nav.Link>
+          <Nav.Link href='#pricing'>Contact</Nav.Link> */}
         </Nav>
-      </Container>
+      </Container> </div>
     </Navbar>
+    </div>
   );
 }
 

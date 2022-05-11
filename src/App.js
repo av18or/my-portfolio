@@ -16,6 +16,8 @@ export default function App() {
   // jsx section
   return (
     <div>
+      
+    
       <NavBar />
 
       <Home />
