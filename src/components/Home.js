@@ -11,7 +11,7 @@ export default function Home() {
    flexDirection: "row", 
    justifyContent: "flex-start",
    backgroundColor: "#022b3a",
-   paddingTop: "18vw"
+   paddingTop: "15vw"
   
   };
 
@@ -20,16 +20,16 @@ export default function Home() {
     color: "white",
     fontSize: "70px",
     textAlign: "left",
-    paddingTop: "100px",
+    paddingTop: "1vw",
     paddingLeft: "20vw",
     animation: "fadeIn 3s",
   }
 
   const computerimg = {
-   paddingTop: "115px",
+   paddingTop: "2vw",
    paddingLeft: "1vw",
    justifyContent: "flex-start",
-   animation: "fadeIn 3s",
+   animation: "fadeIn 4s",
   }
 
  

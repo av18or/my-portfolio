@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
+import '../navbar.css';
 
 // import { useSelector } from "react-redux"; // gets data from the store
 // import { useDispatch } from "react-redux"; // updates the store data
@@ -23,6 +24,7 @@ export default function NavigationBar() {
 
 
   return (
+    
     <div style={wrapperStyle}>
 
     <Navbar bg='dark' variant='dark'>
@@ -37,6 +39,7 @@ export default function NavigationBar() {
       </Container> </div>
     </Navbar>
     </div>
+    
   );
 }
 
