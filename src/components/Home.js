@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "../Home.css";
 
 
 
@@ -22,13 +22,14 @@ export default function Home() {
     textAlign: "left",
     paddingTop: "100px",
     paddingLeft: "20vw",
+    animation: "fadeIn 3s",
   }
 
   const computerimg = {
    paddingTop: "109px",
    paddingLeft: "1vw",
-   justifyContent: "flex-start"
-   
+   justifyContent: "flex-start",
+   animation: "fadeIn 3s",
   }
 
  

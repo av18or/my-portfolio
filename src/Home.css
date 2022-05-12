@@ -1,0 +1,29 @@
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    
+  }
+  
+  @keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(90deg);
+    }
+  }
+  
+  @media only screen and (max-width: 700px) {
+  
+    img {
+        width: 100px;
+        padding-top: 45vw;
+        padding-left: 1vw;
+        justify-content: flex-start;
+        
+    }
+    
+    h1 {
+        font-size: 20px ;
+    }
+  }
