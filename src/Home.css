@@ -17,9 +17,9 @@
   
     img {
         width: 100px;
-        padding-top: 45vw;
-        padding-left: 1vw;
-        justify-content: flex-start;
+        padding-top: 33vw;
+        
+        justify-content: flex-end;
         
     }
     

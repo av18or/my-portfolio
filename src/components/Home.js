@@ -18,7 +18,7 @@ export default function Home() {
   const h1 = {
     zIndex: "1",
     color: "white",
-    fontSize: "80px",
+    fontSize: "70px",
     textAlign: "left",
     paddingTop: "100px",
     paddingLeft: "20vw",
@@ -26,7 +26,7 @@ export default function Home() {
   }
 
   const computerimg = {
-   paddingTop: "109px",
+   paddingTop: "115px",
    paddingLeft: "1vw",
    justifyContent: "flex-start",
    animation: "fadeIn 3s",
@@ -42,7 +42,7 @@ export default function Home() {
     <h1 style={h1}>Full <br></br> Stack<br></br> Software <br></br>Developer</h1>
     
     <div style={computerimg}>
-      <img alt="old Macintosh computer" src="mccomputer2.png" width="450px" ></img>
+      <img alt="old Macintosh computer" src="mccomputer2.png" width="380px" ></img>
     </div>
 
       
