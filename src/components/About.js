@@ -11,7 +11,8 @@ import Accordion from 'react-bootstrap/Accordion'
         
         justifyContent: "space-between",
         textAlign: "center",
-        paddingTop: "40vw",
+        paddingTop: "20vw",
+        paddingBottom: "20vw",
         paddingLeft: "20vw",
         paddingRight: "20vw",
         backgroundColor: "#022b3a",
@@ -29,7 +30,7 @@ import Accordion from 'react-bootstrap/Accordion'
 
   return (
 
-    <div style={wrapperStyle}>
+    <div id='about'style={wrapperStyle}>
     <h2 style={textStyle }>ABOUT</h2>
     
     <Accordion>

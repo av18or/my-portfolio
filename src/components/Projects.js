@@ -8,13 +8,14 @@ import { IoNavigateOutline } from "react-icons/io5";
 // import { changeColor } from "../store/colorStore"; // updates the store data
 
 export default function Projects() {
-  // vanilla js section
+  
   const wrapperStyle = {
     display: "flex",
     flexDirection: "column",
     textAlign: "center",
     backgroundColor: "#022b3a",
-    paddingTop: "50vw",
+    paddingTop: "20vw",
+    paddingBottom: "20vw",
     paddingLeft: "20vw",
     paddingRight: "20vw",
     
@@ -43,7 +44,8 @@ export default function Projects() {
     
 
   return (
-    <div style={wrapperStyle}>
+    
+    <div id='projects' style={wrapperStyle}>
     <h2 style={textStyle}>PROJECTS</h2>
     
 

@@ -1,3 +1,6 @@
-.bar {
-    position: sticky;
+#navbar {
+    position:sticky;
+    padding-left: 19.5vw;
+    font-family: arial;
 }
+

@@ -22,12 +22,13 @@
         justify-content: flex-end;
         
     }
-    
-    h1 {
-        font-size: 20px ;
-    }
 
-    body {
-      background-color: #022b3a;
+    h1 {
+      font-size: 10px;
     }
+    
+    
+
+
+    
   }

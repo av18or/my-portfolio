@@ -8,7 +8,8 @@ export default function ContactMe() {
     
     justifyContent: "space-between",
     textAlign: "center",
-    paddingTop: "50vw",
+    paddingTop: "20vw",
+    paddingBottom: "10vw",
     paddingLeft: "30vw",
     paddingRight: "30vw",
     paddingBottom: "10vw",
@@ -21,7 +22,7 @@ export default function ContactMe() {
   };
 
   return (
-    <div style={wrapperStyle}>
+    <div id='contact' style={wrapperStyle}>
     <h2 style={textStyle}>CONTACT ME</h2>
     <Form>
   <Form.Group className="mb-3" controlId="formBasicEmail">
