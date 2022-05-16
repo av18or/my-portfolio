@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { IoNavigateOutline } from "react-icons/io5";
+import "../projects.css"
 
 
 // import { useSelector } from "react-redux"; // gets data from the store
@@ -11,6 +12,7 @@ export default function Projects() {
   
   const wrapperStyle = {
     display: "flex",
+    justifyContent: "center",
     flexDirection: "column",
     textAlign: "center",
     backgroundColor: "#022b3a",
@@ -27,29 +29,28 @@ export default function Projects() {
   };
 
   const newcards ={
-    display: "flex",
-    flexDirection: "row",
-    flexWrap: "wrap",
-    justifyContent: "space-between",
-    alignItems: "stretch",
+    // display: "flex",
+    // flexDirection: "row",
+    // flexWrap: "nowrap",
+    // justifyContent: "space-between",
+    // alignItems: "stretch",
     
    
 
   }
 
-  // const dispatch = useDispatch(); // send info (a.k.a. "state") to the store
-  // const color = useSelector((state) => state.colorStore.color); // get initial value from store
+  
 
 
     
 
   return (
     
-    <div id='projects' style={wrapperStyle}>
+    <div id='projectsh2' style={wrapperStyle}>
     <h2 style={textStyle}>PROJECTS</h2>
     
 
-<div style={newcards}>
+<div id='projects' style={newcards}>
 <Card border="light" style={{ width: '15rem' }}>
 <IoNavigateOutline />
     <Card.Body>

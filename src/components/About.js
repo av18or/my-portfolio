@@ -9,7 +9,7 @@ import Accordion from 'react-bootstrap/Accordion'
 
       const wrapperStyle = {
         
-        justifyContent: "space-between",
+        justifyContent: "center",
         textAlign: "center",
         paddingTop: "20vw",
         paddingBottom: "20vw",
