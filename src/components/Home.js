@@ -9,7 +9,7 @@ export default function Home() {
   const wrapperStyle = {
    display: "flex",
    flexDirection: "row", 
-   justifyContent: "flex-start",
+  //  justifyContent: "flex-start",
    backgroundColor: "#022b3a",
    paddingTop: "15vw",
    paddingBottom: "15vw"
@@ -22,7 +22,7 @@ export default function Home() {
     fontSize: "70px",
     textAlign: "left",
     paddingTop: "1vw",
-    paddingLeft: "20vw",
+    // paddingLeft: "20vw",
     animation: "fadeIn 3s",
 
     

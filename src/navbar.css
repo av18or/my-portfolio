@@ -1,6 +1,22 @@
 #navbar {
-    position:sticky;
-    padding-left: 19.5vw;
+    display: flex;
+    justify-content: left;
+    /* padding-left: 19.6vw; */
+    
     font-family: arial;
 }
 
+#container {
+    display: flex;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    #navbar {
+        flex-wrap: nowrap;
+        padding-left: 2vw;
+        font-family: arial;
+    }
+
+}

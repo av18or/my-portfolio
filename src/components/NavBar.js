@@ -24,7 +24,7 @@ export default function NavigationBar() {
 
     <Navbar id="navbar" sticky="top" bg="light" >
     <div >
-      <Container>
+      <Container id="container">
         <Navbar.Brand href='/'>CLAYTON GORHAM</Navbar.Brand> 
         <Nav className='me-auto'>
            <Nav.Link href='#about'>About</Nav.Link>
