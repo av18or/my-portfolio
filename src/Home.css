@@ -6,7 +6,7 @@
 }
 
 #full {
-  animation: full .5s;
+  animation: full 1s;
   
 }
 
@@ -19,12 +19,18 @@
     100% {
       -webkit-opacity:1;}
 
-      from {
+      /* from {
         -webkit-transform:rotate(70deg);
     }
     to {
         -webkit-transform:rotate(0deg);
-    }
+    } */
+
+    0% {
+      -webkit-transform: translateX(100%)}
+    100% {
+      -webkit-transform: translateY(0%)}
+
     
   }
   
@@ -38,10 +44,11 @@
   }
 
   @keyframes full{
-    0% {
-      -webkit-transform: translateX(-300%)}
     100% {
-      -webkit-transform: translateX(0%)}
+      -webkit-transform: translateY(0%)}
+    0% {
+      -webkit-transform: translateY(100%)}
+
       0% {
         -webkit-opacity:0;}
       100% {
@@ -56,6 +63,40 @@
 
 
 }
+
+
+/* testing animations */
+
+#test1{
+  height:0px;
+  width:1px;
+  border-bottom:5px solid #000;
+  
+  
+ 
+  -webkit-animation: increase 3s;
+  -moz-animation:    increase 3s; 
+  -o-animation:      increase 3s; 
+  animation:         increase 3s; 
+  animation-fill-mode: forwards;
+  animation-delay: .5s;
+}
+
+@keyframes increase {
+    100% {
+        width: 310px;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
   
   @media only screen and (max-width: 600px) {
   
