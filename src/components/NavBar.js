@@ -25,7 +25,7 @@ export default function NavigationBar() {
     <Navbar id="navbar" sticky="top" bg="light" >
     <div >
       <Container id="container">
-        <Navbar.Brand href='/'>CLAYTON GORHAM</Navbar.Brand> 
+        <Navbar.Brand id='navname' href='/'>CLAYTON GORHAM</Navbar.Brand> 
         <Nav className='me-auto'>
            <Nav.Link href='#about'>About</Nav.Link>
           <Nav.Link href='#projectsh2'>Projects</Nav.Link>
