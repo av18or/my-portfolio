@@ -2,24 +2,53 @@
   padding-top: 10vw;
   display: flex;
   justify-content: center;
+  flex-direction: row;
+}
+
+#full {
+  animation: full 1.5s;
+  
 }
 
 
 
+
 @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+    0% {
+      -webkit-opacity:0;}
+    100% {
+      -webkit-opacity:1;}
     
   }
   
   @keyframes spin {
     from {
-        transform:rotate(0deg);
+        -webkit-transform:rotate(0deg);
     }
     to {
-        transform:rotate(90deg);
+        -webkit-transform:rotate(90deg);
     }
   }
+
+  @keyframes full{
+    0% {
+      -webkit-transform: translateX(-200%)}
+    100% {
+      -webkit-transform: translateX(0%)}
+      0% {
+        -webkit-opacity:0;}
+      100% {
+        -webkit-opacity:1;}
+
+        /* from {
+          -webkit-transform:rotate(60deg);
+      }
+      to {
+          -webkit-transform:rotate(0deg);
+      } */
+
+
+}
   
   @media only screen and (max-width: 600px) {
   

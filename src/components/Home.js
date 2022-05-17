@@ -9,7 +9,6 @@ export default function Home() {
   const wrapperStyle = {
    display: "flex",
    flexDirection: "row", 
-  //  justifyContent: "flex-start",
    backgroundColor: "#022b3a",
    paddingTop: "15vw",
    paddingBottom: "15vw"
@@ -22,10 +21,9 @@ export default function Home() {
     fontSize: "70px",
     textAlign: "left",
     paddingTop: "1vw",
-    // paddingLeft: "20vw",
-    animation: "fadeIn 3s",
-
+    flexWrap: "wrap",
     
+  
   }
 
   const computerimg = {
@@ -39,16 +37,13 @@ export default function Home() {
 
   return (
     <div id='home' style={wrapperStyle}>
-  
-  
 
-    <h1 style={h1}>Full <br></br> Stack<br></br> Software <br></br>Developer</h1>
+    <h1 id='full' style={h1}>Full <br></br>Stack<br></br>Software<br></br>Developer</h1> 
     
     <div style={computerimg}>
       <img alt="old Macintosh computer" src="mccomputer2.png" width="380px" ></img>
     </div>
 
-    
       
 </div>
   )
