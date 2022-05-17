@@ -6,33 +6,40 @@
 }
 
 #full {
-  animation: full 1.5s;
+  animation: full .5s;
   
 }
 
 
 
 
-@keyframes fadeIn {
+@keyframes fadeSpin {
     0% {
       -webkit-opacity:0;}
     100% {
       -webkit-opacity:1;}
+
+      from {
+        -webkit-transform:rotate(70deg);
+    }
+    to {
+        -webkit-transform:rotate(0deg);
+    }
     
   }
   
   @keyframes spin {
     from {
-        -webkit-transform:rotate(0deg);
+        -webkit-transform:rotate(-30deg);
     }
     to {
-        -webkit-transform:rotate(90deg);
+        -webkit-transform:rotate(0deg);
     }
   }
 
   @keyframes full{
     0% {
-      -webkit-transform: translateX(-200%)}
+      -webkit-transform: translateX(-300%)}
     100% {
       -webkit-transform: translateX(0%)}
       0% {
@@ -63,6 +70,11 @@
     #home {
   display: flex;
   justify-content: center;
+  
+    }
+
+    #full {
+      animation: full 1.5s;
     }
 
    

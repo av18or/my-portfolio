@@ -30,7 +30,7 @@ export default function Home() {
    paddingTop: "2vw",
    paddingLeft: "1vw",
    justifyContent: "flex-start",
-   animation: "fadeIn 4s",
+   animation: "fadeSpin .5s",
   }
 
  
