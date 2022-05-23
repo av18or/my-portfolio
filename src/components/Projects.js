@@ -58,7 +58,7 @@ export default function Projects() {
       <Card.Title>Bug Tracker</Card.Title>
       <Card.Text>
         A bug/ticket tracker created using the MERN stack.
-        <button><NavLink href="https://bug-tracker-deploy.herokuapp.com/">Open Project</NavLink></button>
+        <button><NavLink href="https://bug-tracker-deploy.herokuapp.com/" target="_blank" rel="noopener">Open Project</NavLink></button>
       </Card.Text>
     </Card.Body>
     <Card.Footer>
