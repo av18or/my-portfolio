@@ -22,9 +22,9 @@ export default function App() {
 
       <Home />
 
-      <About />
-      
       <Projects />
+
+      <About />
       
       <ContactMe />
       
