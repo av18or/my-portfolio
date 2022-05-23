@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import { IoNavigateOutline } from "react-icons/io5";
 import "../projects.css"
@@ -56,7 +57,8 @@ export default function Projects() {
     <Card.Body>
       <Card.Title>Bug Tracker</Card.Title>
       <Card.Text>
-        A bug/ticket tracker created as a MERN stack application.
+        A bug/ticket tracker created using the MERN stack.
+        <NavLink href="https://bug-tracker-deploy.herokuapp.com/">Open Project</NavLink>
       </Card.Text>
     </Card.Body>
     <Card.Footer>
