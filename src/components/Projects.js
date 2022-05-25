@@ -72,6 +72,7 @@ export default function Projects() {
       <Card.Title>Tic Tac Toe</Card.Title>
       <Card.Text>
         This is a game I created as a project during bootcamp.
+        <button><NavLink href="https://av18or.github.io/Newgame/" target="_blank" rel="noopener">Open Project</NavLink></button>
       </Card.Text>
     </Card.Body>
     <Card.Footer>
