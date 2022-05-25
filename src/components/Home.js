@@ -39,6 +39,7 @@ export default function Home() {
   return (
     <div id='home' style={wrapperStyle}>
       <div id='test'>
+        
     <h1 id='full' style={h1}>Full <br></br>Stack<br></br>Software<br></br>Developer</h1> 
     <div id='test1'></div>
     </div>

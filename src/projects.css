@@ -6,6 +6,11 @@ justify-content: space-between;
 
 }
 
+button:hover {
+    background-color: azure;
+    
+}
+
 @media only screen and (max-width: 600px) {
 
     #projects {

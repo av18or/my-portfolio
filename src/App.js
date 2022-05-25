@@ -24,9 +24,9 @@ export default function App() {
 
       <Projects />
 
-      <About />
+      {/* <About /> */}
       
-      <ContactMe />
+      {/* <ContactMe /> */}
       
     </div>
   );

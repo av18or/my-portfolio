@@ -28,8 +28,8 @@ export default function NavigationBar() {
         <Navbar.Brand id='navname' href='/'>CLAYTON GORHAM</Navbar.Brand> 
         <Nav className='me-auto'>
              <Nav.Link href='#projectsh2'>Projects</Nav.Link>
-             <Nav.Link href='#about'>About</Nav.Link>
-             <Nav.Link href='#contact'>Contact</Nav.Link> 
+             {/* <Nav.Link href='#about'>About</Nav.Link>
+             <Nav.Link href='#contact'>Contact</Nav.Link>  */}
         </Nav>
       </Container> </div>
     </Navbar>

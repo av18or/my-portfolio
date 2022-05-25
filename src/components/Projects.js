@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
-import { IoNavigateOutline } from "react-icons/io5";
 import "../projects.css"
 
 
@@ -52,36 +51,36 @@ export default function Projects() {
     
 
 <div id='projects' style={newcards}>
-<Card border="light" style={{ width: '15rem' }}>
-<IoNavigateOutline />
+<Card border="light" style={{ width: '20rem', height: "15rem", margin: "10px" }}>
+
     <Card.Body>
       <Card.Title>Bug Tracker</Card.Title>
       <Card.Text>
         A bug/ticket tracker created using the MERN stack.
-        <button><NavLink href="https://bug-tracker-deploy.herokuapp.com/" target="_blank" rel="noopener">Open Project</NavLink></button>
       </Card.Text>
+      <button style={{backgroundColor:"", borderRadius: "10px", border: "1px solid black", marginTop: "10px", marginBottom: "10px"}}><NavLink href="https://bug-tracker-deploy.herokuapp.com/" target="_blank" rel="noopener">OPEN PROJECT</NavLink></button>
     </Card.Body>
     <Card.Footer>
       <small className="text-muted">HTML | CSS | JAVASCRIPT | MONGOdb </small>
     </Card.Footer>
   </Card>
 
-  <Card border="light" style={{ width: '15rem' }}>
-    <IoNavigateOutline />
+  <Card border="light" style={{ width: '20rem', height: "15rem", margin: "10px"  }}>
+    
     <Card.Body>
       <Card.Title>Tic Tac Toe</Card.Title>
       <Card.Text>
         This is a game I created as a project during bootcamp.
-        <button><NavLink href="https://av18or.github.io/Newgame/" target="_blank" rel="noopener">Open Project</NavLink></button>
       </Card.Text>
+      <button style={{backgroundColor: "", borderRadius: "10px", border: "1px solid black", marginTop: "10px", marginBottom: "10px"}}><NavLink href="https://av18or.github.io/Newgame/" target="_blank" rel="noopener">OPEN PROJECT</NavLink></button>
     </Card.Body>
     <Card.Footer>
       <small className="text-muted">HTML | CSS | JAVASCRIPT</small>
     </Card.Footer>
   </Card>
 
-  <Card border="light" style={{ width: '15rem' }}>
-  <IoNavigateOutline />
+  <Card border="light" style={{ width: '20rem', height: "15rem", margin: "10px"  }}>
+  
     <Card.Body>
       <Card.Title>Project #3</Card.Title>
       <Card.Text>
